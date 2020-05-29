@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sample.Drag">
+      <class name="Com.Sulekha.listingPage.TestListingPage">
         <methods>
-          <include name="getresult"/>
-          <include name="startReport"/>
-          <include name="registration"/>
           <include name="setup"/>
+          <include name="endReport"/>
+          <include name="need_india_page"/>
+          <include name="getResult"/>
+          <include name="Get_Quote"/>
+          <include name="startReport"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Sample.Drag -->
+      </class> <!-- Com.Sulekha.listingPage.TestListingPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
