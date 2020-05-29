@@ -69,7 +69,7 @@ public class TestListingPage extends ExtentReportnew {
 		ListingUser.Save_to_mobile(driver).click();
 		String Save_1 = driver.findElement(By.xpath("//h4[contains(text(),'Get contact details')]")).getText();
 		System.out.println(Save_1);
-		logger = extent.startTest("SAVE TO PHONE");
+		logger = extent.startTest("SAVE TO PHONE FEATURE");
 		AssertJUnit.assertEquals(h1, Save_1);
 	}
 
